@@ -1,0 +1,17 @@
+{
+  "id": "357945b8-b4f6-4fb2-a101-a0ce5306c6ce",
+  "version": "2.0",
+  "name": "com-heroukapp",
+  "url": "",
+  "tests": [],
+  "suites": [{
+    "id": "1e5f184a-53d6-4461-9731-f2181c9bb675",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": [],
+  "plugins": []
+}

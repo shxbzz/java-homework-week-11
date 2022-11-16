@@ -1,0 +1,474 @@
+{
+  "id": "7f514406-1c89-49dc-9f03-68fc2c60bfc7",
+  "version": "2.0",
+  "name": "com-ultimateqa",
+  "url": "https://courses.ultimateqa.com/users/sign_in",
+  "tests": [{
+    "id": "0582b201-8cf2-4ee7-993a-88e10636abac",
+    "name": "HompeageTest",
+    "commands": [{
+      "id": "15f78716-9624-4575-9843-94c8acceda97",
+      "comment": "",
+      "command": "open",
+      "target": "/users/sign_in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06583580-534e-4f5d-980e-4bbd912f084e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e309558-3772-4337-b242-6758113523b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.img-responsive",
+      "targets": [
+        ["css=.img-responsive", "css:finder"],
+        ["xpath=//img[@alt='Ultimate QA']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b985161-3cfe-49e2-8ca2-06cc8ccdf01a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2d5845e0-e580-42ca-92d6-0251d65707de",
+    "name": "EmailFieldTest",
+    "commands": [{
+      "id": "ec55cea1-770f-45ac-923e-73ead689bc7e",
+      "comment": "",
+      "command": "open",
+      "target": "https://courses.ultimateqa.com/users/sign_in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50c1a8fb-b31f-4c1c-90e7-832e4aa269fe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1f721ee-9dac-4d2b-a0e7-73f018b9e381",
+      "comment": "",
+      "command": "click",
+      "target": "id=user[email]",
+      "targets": [
+        ["id=user[email]", "id"],
+        ["name=user[email]", "name"],
+        ["css=#user\\[email\\]", "css:finder"],
+        ["xpath=//input[@id='user[email]']", "xpath:attributes"],
+        ["xpath=//form[@id='sign_in_dd13995ac2']/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c023e87-3c82-4fd0-8fd1-066909925489",
+      "comment": "",
+      "command": "type",
+      "target": "id=user[email]",
+      "targets": [
+        ["id=user[email]", "id"],
+        ["name=user[email]", "name"],
+        ["css=#user\\[email\\]", "css:finder"],
+        ["xpath=//input[@id='user[email]']", "xpath:attributes"],
+        ["xpath=//form[@id='sign_in_dd13995ac2']/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "HelloTest"
+    }, {
+      "id": "79ef16ae-ee91-4ce1-ac5f-5bd8b1355be9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sign-in__wrapper",
+      "targets": [
+        ["css=.sign-in__wrapper", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div", "xpath:idRelative"],
+        ["xpath=//main/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94a8e496-06ba-4494-9cc8-09bbf37e12be",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2f31269c-dc24-4724-aeba-461989e51dc2",
+    "name": "PasswordFieldTest",
+    "commands": [{
+      "id": "72bec109-43b2-4b45-9564-d007a36d03fc",
+      "comment": "",
+      "command": "open",
+      "target": "https://courses.ultimateqa.com/users/sign_in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5104640b-9d44-402e-a21d-53c6ba1a89a1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7391163c-0821-43ca-82dd-990a4027712d",
+      "comment": "",
+      "command": "click",
+      "target": "id=user[password]",
+      "targets": [
+        ["id=user[password]", "id"],
+        ["name=user[password]", "name"],
+        ["css=#user\\[password\\]", "css:finder"],
+        ["xpath=//input[@id='user[password]']", "xpath:attributes"],
+        ["xpath=//form[@id='sign_in_0fa2bbf92b']/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0574b7be-0327-46e8-a8d3-77ebc2cab26e",
+      "comment": "",
+      "command": "type",
+      "target": "id=user[password]",
+      "targets": [
+        ["id=user[password]", "id"],
+        ["name=user[password]", "name"],
+        ["css=#user\\[password\\]", "css:finder"],
+        ["xpath=//input[@id='user[password]']", "xpath:attributes"],
+        ["xpath=//form[@id='sign_in_0fa2bbf92b']/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/label/input", "xpath:position"]
+      ],
+      "value": "HelloPassword"
+    }, {
+      "id": "2ba76eba-bba0-44df-a711-0eb33e4b7c35",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sign-in__wrapper",
+      "targets": [
+        ["css=.sign-in__wrapper", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div", "xpath:idRelative"],
+        ["xpath=//main/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0e3aa0c-a592-4385-b479-2e415ddfb8ff",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "28508a11-4349-4269-8fbb-8a4ea5d2e365",
+    "name": "RememberMeTest",
+    "commands": [{
+      "id": "3fad4ea3-96e4-445f-9a71-cf64e0951d71",
+      "comment": "",
+      "command": "open",
+      "target": "https://courses.ultimateqa.com/users/sign_in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55b80427-579a-465d-bb76-d7d49802a0b7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87671a2b-4d4f-41cf-b5b7-a6029e045cf4",
+      "comment": "",
+      "command": "click",
+      "target": "id=user[remember_me]",
+      "targets": [
+        ["id=user[remember_me]", "id"],
+        ["css=#user\\[remember_me\\]", "css:finder"],
+        ["xpath=//input[@id='user[remember_me]']", "xpath:attributes"],
+        ["xpath=//form[@id='sign_in_c05bf919e5']/div[3]/label/input[2]", "xpath:idRelative"],
+        ["xpath=//label/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e33c8d90-a26c-4c07-9ed3-1d1e6bb8f0eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form__remember-me > .form__label",
+      "targets": [
+        ["css=.form__remember-me > .form__label", "css:finder"],
+        ["xpath=//form[@id='sign_in_c05bf919e5']/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,' Remember me')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b530e7f5-f205-45fe-8991-c7264dc20906",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8dcbd6fb-88e2-4472-a957-7ba267a7de5b",
+    "name": "ForgotPasswordTest",
+    "commands": [{
+      "id": "4f5095eb-434f-43b8-b96a-a2293db577e5",
+      "comment": "",
+      "command": "open",
+      "target": "https://courses.ultimateqa.com/users/sign_in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fece7f01-37cb-409a-98e9-80bd5efda049",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7314407-8fad-4112-a1ff-c341b95a4cfc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Forgot Password?",
+      "targets": [
+        ["linkText=Forgot Password?", "linkText"],
+        ["css=.form__forgot-password", "css:finder"],
+        ["xpath=//a[contains(text(),'Forgot Password?')]", "xpath:link"],
+        ["xpath=//form[@id='sign_in_6bcfe4fd4c']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/users/password/new')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Forgot Password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "455d4d1f-8ba2-4272-8046-02617fb16da5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Forgot Password?",
+      "targets": [
+        ["linkText=Forgot Password?", "linkText"],
+        ["css=.form__forgot-password", "css:finder"],
+        ["xpath=//a[contains(text(),'Forgot Password?')]", "xpath:link"],
+        ["xpath=//form[@id='sign_in_6bcfe4fd4c']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/users/password/new')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Forgot Password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44028fbb-c3ea-4152-aaaf-400a2a3a198b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "39b600d6-e7a0-40db-b9de-21f6a0e094e5",
+    "name": "LinkedInTest",
+    "commands": [{
+      "id": "0069c558-909f-45aa-a592-90cf8272ed49",
+      "comment": "",
+      "command": "open",
+      "target": "https://courses.ultimateqa.com/users/sign_in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13be85c1-8c77-4ee5-bc33-95de7efa9efb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d08e58f-9970-4340-8437-04f3f2a8956c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.toga-icon-social-linkedIn",
+      "targets": [
+        ["css=.toga-icon-social-linkedIn", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div/article/div/ul/li/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f868298b-b325-4a35-81ba-f40066bb4818",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b9e333d1-a814-4ed5-ab88-63aa58fcf210",
+    "name": "FacebookTest",
+    "commands": [{
+      "id": "2c4620cc-1adc-4170-aa73-2cf28e26e3ea",
+      "comment": "",
+      "command": "open",
+      "target": "https://courses.ultimateqa.com/users/sign_in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "638ec1ed-a620-4165-b434-8f1a593afb24",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d3b3df6-1031-41ee-96af-99bd6216f49c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.facebook",
+      "targets": [
+        ["css=.facebook", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div/article/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://courses.thinkific.com/users/auth/facebook?ss%5Breferral%5D=&ss%5Buser_return_to%5D=&ss%5Bvisitor_id%5D=1603708356')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8911ed3f-268c-4657-9fd8-6746556e9af4",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d4e0e6af-ba04-411f-a088-a2c9c658178b",
+    "name": "GmailTest",
+    "commands": [{
+      "id": "c586a85c-d95e-4cda-a278-7b87112dbc2d",
+      "comment": "",
+      "command": "open",
+      "target": "https://courses.ultimateqa.com/users/sign_in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e863a05-8a6b-4971-bcdd-a3fcf0fff525",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bd881f9-1496-4712-b155-badc0a74ab2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.toga-icon-social-google-colorized",
+      "targets": [
+        ["css=.toga-icon-social-google-colorized", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div/article/div/ul/li[3]/a/i", "xpath:idRelative"],
+        ["xpath=//li[3]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2672e97b-67cd-4fad-9075-9325d93bf3a2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "144c7747-3418-41a0-a712-b1a9f881e73c",
+    "name": "CreateNewAccountTest",
+    "commands": [{
+      "id": "0edfbbf1-0ad0-462e-be40-ef1649c4826d",
+      "comment": "",
+      "command": "open",
+      "target": "https://courses.ultimateqa.com/users/sign_in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b0b1fb1-e7a9-46e4-91a4-a5356841dd2f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce370dca-758a-4f3c-8c2b-004cbe72639d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Create a new account",
+      "targets": [
+        ["linkText=Create a new account", "linkText"],
+        ["css=.sign-in__sign-up > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Create a new account')]", "xpath:link"],
+        ["xpath=//main[@id='main-content']/div/div/aside/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/users/sign_up')]", "xpath:href"],
+        ["xpath=//aside/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Create a new account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34056052-5584-4b4e-b4b6-550e4269d1e1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1bf32a9f-da1b-4dee-bf58-11fb63d8ef22",
+    "name": "SignInTest",
+    "commands": [{
+      "id": "08750961-381f-4ccb-a778-3e2c68815afd",
+      "comment": "",
+      "command": "open",
+      "target": "https://courses.ultimateqa.com/users/sign_in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59d78385-bfc7-49d0-a647-0690483948c7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ed63536-0570-4a07-b6f1-3fcee3e03890",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign In",
+      "targets": [
+        ["linkText=Sign In", "linkText"],
+        ["css=.header__user-menu a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/users/sign_in')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4231dbff-3457-4bd8-b979-186b7d781162",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5ee38131-8e98-42a3-9982-9c4dcbf6d42a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0582b201-8cf2-4ee7-993a-88e10636abac"]
+  }],
+  "urls": ["https://courses.ultimateqa.com/", "https://courses.ultimateqa.com/users/sign_in"],
+  "plugins": []
+}

@@ -1,0 +1,728 @@
+{
+  "id": "273db7c0-7e63-4150-bbd8-3d84b7bfb507",
+  "version": "2.0",
+  "name": "com-nopcommerce",
+  "url": "https://demo.nopcommerce.com/login?returnUrl=%2F",
+  "tests": [{
+    "id": "c818e6d6-8dce-41e4-b4fe-ca7d2e6e6c59",
+    "name": "LoginTest",
+    "commands": [{
+      "id": "09087443-6044-4548-b918-7fda8ba88920",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.nopcommerce.com/login?returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f84c6477-b9dd-4c64-ac12-d8152ca5ae10",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "942cf9ec-05a0-4695-b4b0-d5eeaeecb1d8",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4d7eca9-c929-4b89-a48d-d93993be06cb",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Test123@gmail.com"
+    }, {
+      "id": "670e1867-eee2-46ab-862b-09f9e64b354d",
+      "comment": "",
+      "command": "type",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Test123"
+    }, {
+      "id": "0a1a1dae-c5ac-41e4-ba6a-2188cc1e9b54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-button",
+      "targets": [
+        ["css=.login-button", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a0cffc1-ec37-47c1-aefb-395931251aa0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f73688d0-139f-4ce2-808f-ae741db09f2d",
+    "name": "RegisterButtonTest",
+    "commands": [{
+      "id": "6e24bfe9-49cf-44b9-9b33-a1b9e4632592",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.nopcommerce.com/login?returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbc12332-acdd-4d1c-80d1-cf902eb822e8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c75ca76d-8012-43fa-a79c-85f2d39fb73e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.register-button",
+      "targets": [
+        ["css=.register-button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30e1aea0-d271-4b17-9bd0-1aaa585301a3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b98e9d0a-1c7d-4197-80d4-4520d375a21e",
+    "name": "ForgotPasswordTest",
+    "commands": [{
+      "id": "5645e8c7-4766-4e30-a109-e272ca65da90",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.nopcommerce.com/login?returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10f71466-0919-4bc6-a167-a1267f2e0900",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d143a9a-ab91-42a8-9154-c71fedfd73c1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Forgot password?",
+      "targets": [
+        ["linkText=Forgot password?", "linkText"],
+        ["css=.forgot-password > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Forgot password?')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/passwordrecovery')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Forgot password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0101731-0495-4402-88af-9b54deebd172",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4ff8ae69-b861-4699-bc76-244893604f6c",
+    "name": "ComputersTest",
+    "commands": [{
+      "id": "d46c65d7-4e99-4539-b90a-e5360b9681e0",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.nopcommerce.com/login?returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0a33f5c-4a6c-48f2-bbcd-c79b20147f47",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3b0196a-5129-489b-9454-c31aab6542e1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Computers",
+      "targets": [
+        ["linkText=Computers", "linkText"],
+        ["css=.notmobile > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Computers')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/computers')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Computers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41e08383-c1bc-4655-a429-ab1417f21756",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ef257800-77eb-4def-92ab-27ddb2982460",
+    "name": "ElectronicsTest",
+    "commands": [{
+      "id": "d2d316cb-6195-4492-804c-1f43bef267bb",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.nopcommerce.com/login?returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ae919c6-00f8-41e7-b3f5-e9e10f97aab9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fec75319-efeb-41fb-a395-9c83218535cc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Electronics",
+      "targets": [
+        ["linkText=Electronics", "linkText"],
+        ["css=.notmobile > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Electronics')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/electronics')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Electronics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98e5aeac-a4f5-4cce-a59c-8488a1960bc0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4b9257bb-1bcc-4d43-ac5e-5680b8afd749",
+    "name": "ApparelTest",
+    "commands": [{
+      "id": "af2dab2a-07c4-4c70-a09a-cec64e77ef69",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.nopcommerce.com/login?returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "006c0c3d-7d66-4bee-ae32-7e13bc7d44fd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d3daf42-1296-4d21-8257-314080a4a619",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Apparel",
+      "targets": [
+        ["linkText=Apparel", "linkText"],
+        ["css=.notmobile > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Apparel')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/apparel')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Apparel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "252f7d91-7723-4263-8cb2-21109434aa53",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b2c61423-25ae-43e7-b068-a03587cdc783",
+    "name": "DigitalDownloadsTest",
+    "commands": [{
+      "id": "1d1c3cf7-f4df-41f4-b05e-ee97997b8642",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.nopcommerce.com/login?returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb333845-2747-4049-9e2f-147a7c2020a0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8125de5b-90b7-4332-8bc3-0706092a33f5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Digital downloads",
+      "targets": [
+        ["linkText=Digital downloads", "linkText"],
+        ["css=.notmobile > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Digital downloads')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/digital-downloads')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Digital downloads')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "84ed1a45-8d03-4ed1-a542-ac2a10ac2649",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d227534f-5b89-43cc-89f6-e104a11055dc",
+    "name": "BooksTest",
+    "commands": [{
+      "id": "e1ed176b-9ca5-42fd-9c75-5001dc0a42fe",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.nopcommerce.com/login?returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "212d8002-47a3-40cb-bb28-695f8a0ee603",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1517fa8-0881-4c37-b160-97702cff5c38",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Books",
+      "targets": [
+        ["linkText=Books", "linkText"],
+        ["css=.notmobile > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Books')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/books')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Books')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8d23f40-93c0-4b18-b7f6-421644a72bda",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c59f57d2-3ec2-48bf-90f4-53121cd0737c",
+    "name": "JewelryTest",
+    "commands": [{
+      "id": "193b7cbd-3c6e-4393-a912-64f96ae62eb0",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.nopcommerce.com/login?returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e8a4a22-a3f1-4387-9d12-074ef9d0f863",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d76dc16-4ba0-44ff-a17a-6f8564172e82",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Jewelry",
+      "targets": [
+        ["linkText=Jewelry", "linkText"],
+        ["css=.notmobile > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Jewelry')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/jewelry')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Jewelry')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "604dc645-21f5-4d7a-9b55-ac53a4ab7295",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4ef7f232-e59b-4020-b688-cd73f1fc2fa9",
+    "name": "GiftCardsTest",
+    "commands": [{
+      "id": "610a6385-07f1-4789-b75d-daab8bfeb2d0",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.nopcommerce.com/login?returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e88caa8-bde8-4cd7-a0ad-f9b0cc54159e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6838da38-c499-49f6-87c9-713702974871",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gift Cards",
+      "targets": [
+        ["linkText=Gift Cards", "linkText"],
+        ["css=.notmobile > li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Gift Cards')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/gift-cards')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Gift Cards')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4af88166-c442-466c-91b5-065f1822d371",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7d1acaa8-b9ee-4675-aa3b-e37d6f110ec4",
+    "name": "CurrencyDropdownTest",
+    "commands": [{
+      "id": "2a5daf9c-9f70-4b6d-a9c8-1d22f27dafdb",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.nopcommerce.com/login?returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51844a9d-b0b9-462c-9f16-315f9f9528aa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f2d51d7-29f3-4f20-83c1-3083209cac55",
+      "comment": "",
+      "command": "click",
+      "target": "id=customerCurrency",
+      "targets": [
+        ["id=customerCurrency", "id"],
+        ["name=customerCurrency", "name"],
+        ["css=#customerCurrency", "css:finder"],
+        ["xpath=//select[@id='customerCurrency']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6dbae1f-7f83-4857-85f1-81241c874e5f",
+      "comment": "",
+      "command": "select",
+      "target": "id=customerCurrency",
+      "targets": [],
+      "value": "label=Euro"
+    }, {
+      "id": "2b198ae9-f86b-406c-9486-3084ba4dd1db",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "fb5eab45-6243-4f51-bc88-fdfb54f5d21e",
+    "name": "SearchStoreTest",
+    "commands": [{
+      "id": "50ed7fe7-a374-4dff-b337-d91e4c61f101",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.nopcommerce.com/login?returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3500126a-6bc9-41c1-bc14-48b112f33e51",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8617cf7-792c-4852-a1ff-326c3e5b1f14",
+      "comment": "",
+      "command": "click",
+      "target": "id=small-searchterms",
+      "targets": [
+        ["id=small-searchterms", "id"],
+        ["name=q", "name"],
+        ["css=#small-searchterms", "css:finder"],
+        ["xpath=//input[@id='small-searchterms']", "xpath:attributes"],
+        ["xpath=//form[@id='small-search-box-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f22ae5f3-b942-4a9c-a255-4ed7454f1ec9",
+      "comment": "",
+      "command": "type",
+      "target": "id=small-searchterms",
+      "targets": [
+        ["id=small-searchterms", "id"],
+        ["name=q", "name"],
+        ["css=#small-searchterms", "css:finder"],
+        ["xpath=//input[@id='small-searchterms']", "xpath:attributes"],
+        ["xpath=//form[@id='small-search-box-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Test"
+    }, {
+      "id": "4c381f7b-eff6-44a8-9ce0-d38af3926513",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=small-searchterms",
+      "targets": [
+        ["id=small-searchterms", "id"],
+        ["name=q", "name"],
+        ["css=#small-searchterms", "css:finder"],
+        ["xpath=//input[@id='small-searchterms']", "xpath:attributes"],
+        ["xpath=//form[@id='small-search-box-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7baba2e2-d0b3-4a02-887c-f9baa7325d0c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6c34ee7e-be37-4799-be2a-204cae2d6330",
+    "name": "NopCommerceHomepageTest",
+    "commands": [{
+      "id": "49bcdd0a-9903-424e-bd86-ddbc60eecdbe",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.nopcommerce.com/login?returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52f253a8-bd18-466f-8b5e-f4c388476acc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d363bc3-779c-448e-9ad4-5b5743a2aa67",
+      "comment": "",
+      "command": "click",
+      "target": "css=img",
+      "targets": [
+        ["css=img", "css:finder"],
+        ["xpath=//img[@alt='nopCommerce demo store']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3235911a-7a1b-4cdd-8d8f-051aefed0756",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "032adf08-8b3a-40d7-9b43-a653766cda4f",
+    "name": "FacebookIconTest",
+    "commands": [{
+      "id": "9fc79f9f-df2f-4501-917e-98bc8ad9cb4b",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.nopcommerce.com/login?returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5929d5f1-09f3-48c2-923b-ee4f062e157e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be7239b9-0bf6-434c-9f6c-154d7d3395c6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Facebook",
+      "targets": [
+        ["linkText=Facebook", "linkText"],
+        ["css=.facebook > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Facebook')]", "xpath:link"],
+        ["xpath=//a[@href='http://www.facebook.com/nopCommerce']", "xpath:href"],
+        ["xpath=//div[4]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Facebook')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2387",
+      "windowTimeout": 2000
+    }, {
+      "id": "35633998-2df7-47eb-8488-e15e078e75f5",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b931ace-2c46-4c2f-873e-3237cc44f6e1",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2387}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3addcbfb-c5f0-4dd0-87f2-d2eb76dfad12",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d97e535b-d567-43f0-9fb1-e388f35bf6ef",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5ebd582-7700-4c8d-b26c-9988951adbc4",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "13321bea-4936-4909-bfec-e031b29bfe98",
+    "name": "TwitterIconTest",
+    "commands": [{
+      "id": "f8491250-aa87-4da9-b92f-dbcead7d85b9",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.nopcommerce.com/login?returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "047fe589-b1de-4a32-b194-4a5c3c634655",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bf365d8-dc50-483e-8ea0-2c6a5da78f43",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Twitter",
+      "targets": [
+        ["linkText=Twitter", "linkText"],
+        ["css=.twitter > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Twitter')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://twitter.com/nopCommerce')]", "xpath:href"],
+        ["xpath=//div[4]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Twitter')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9009",
+      "windowTimeout": 2000
+    }, {
+      "id": "8f781038-ef27-4f06-be7e-b3dadab73c0f",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0bc734d-8449-4a84-9199-81909c427d28",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9009}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91f56657-03bd-478c-b12e-870d59757206",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9301e630-31fd-4270-9c88-dccd709cc18a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "564279c8-6e19-45a3-8d62-d39a8464ea7f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5fbbcbb1-927c-4341-ac16-7e93e66c6936",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://demo.nopcommerce.com/", "https://demo.nopcommerce.com/login?returnUrl=%2F"],
+  "plugins": []
+}
